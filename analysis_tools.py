@@ -331,5 +331,3 @@ def detect_outliers_excluding_countries(year, countries_to_exclude):
     plt.grid()
     plt.savefig(f"figures/{year}_outlier_detection_excluding_countries.png")
     plt.show()
-
-detect_outliers_excluding_countries(2025, ["Sweden", "Israel", "Estonia", "Austria"])
